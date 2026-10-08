@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="bg-zinc-950 text-white">
+
+    <section>
+        <!-- header -->
+        <header class="border-b border-zinc-800 bg-zinc-950 text-white">
+
+            <nav class="fixed top-0 left-0 right-0 z-30 bg-zinc-900/50 backdrop-blur-md ">
+
+
+
+                <ul class="container mx-auto lg:w-[90%] px-6 py-4 flex items-center justify-between ">
+                    <li>
+                        <a href="index.html" class="group inline-flex items-center gap-3 text-xs uppercase tracking-[0.25em]
+                         text-zinc-400 hover:text-white transition">
+                            <i
+                                class="fa-solid fa-arrow-left text-[10px]  transition-transform duration-200 group-hover:-translate-x-1"></i>
+                            Back to Home
+                        </a>
+                    </li>
+
+                    <li class="flex gap-3">
+
+
+                        <button id="wishlist"
+                            class="icon relative w-10 h-10 flex items-center justify-center   duration-500 rounded-full border border-zinc-700 hover:bg-white  ">
+                            <i class="fa-regular fa-heart text-xl text-red-600  p-0.5"></i>
+                            <span id="wishlistcount"
+                                class="absolute -top-1.5 -right-1.5 min-w-4.5 h-4.5 px-1  flex items-center justify-center  rounded-full bg-white text-black  text-[11px] font-bold ring-2 ring-zinc-950">
+                                0
+                            </span>
+                        </button>
+
+                        <button id="openCartBtn"
+                            class="relative w-10 h-10 flex items-center justify-center   duration-500 rounded-full border border-zinc-700  hover:bg-white hover:text-lime-600 hover:border-white transition">
+                            <i class="fa-solid fa-bag-shopping text-sm"></i>
+                            <span id="cartCount"
+                                class="absolute -top-1.5 -right-1.5 min-w-5 h-5 px-1  flex items-center justify-center  rounded-full bg-lime-400 text-black  text-[11px] font-bold ring-2 ring-zinc-950">
+                                0
+                            </span>
+                        </button>
+
+
+
+                    </li>
+
+
+                </ul>
+
+            </nav>
+
+            <div class="max-w-7xl mx-auto px-6  pb-20 text-center">
+
+
+                <div class="w-50 h-0.5 bg-gradient-to-r from-transparent via-lime-400/60 to-transparent mx-auto mt-10">
+                </div>
+                <p class="text-base uppercase tracking-[0.5em] text-lime-400/70 mt-10">
+                    The Collection
+                </p>
+
+                <h2 class="mt-6 italic text-5xl md:text-7xl font-normal tracking-wide font-['Playfair_Display']">
+                    Curated <span class="italic text-zinc-300">Essentials</span>
+                </h2>
+
+                <div class="w-50 h-0.5 bg-gradient-to-r from-transparent via-lime-400/60 to-transparent mx-auto mt-10">
+                </div>
+
+            </div>
+
+        </header>
+
+        <section>
+
+
+            <div class="container mx-auto px-3">
+                <div class="grid grid-cols-3 sm:flex sm:flex-wrap justify-center gap-2 mt-8">
+                    <button id="All"
+                        class="category-btn px-3 sm:px-5 py-2.5 text-xs font-bold tracking-[0.15em] border border-zinc-400 text-zinc-400 hover:border-lime-400 hover:text-lime-400 transition-all duration-300">All</button>
+                    <button id="Hoodies"
+                        class="category-btn px-3 sm:px-5 py-2.5 text-xs font-bold tracking-[0.15em] border border-zinc-400 text-zinc-400 hover:border-lime-400 hover:text-lime-400 transition-all duration-300">HOODIES</button>
+                    <button id="T-Shirts"
+                        class="category-btn px-3 sm:px-5 py-2.5 text-xs font-bold tracking-[0.15em] border border-zinc-400 text-zinc-400 hover:border-lime-400 hover:text-lime-400 transition-all duration-300">T-Shirts</button>
+                    <button id="Pants"
+                        class="category-btn px-3 sm:px-5 py-2.5 text-xs font-bold tracking-[0.15em] border border-zinc-400 text-zinc-400 hover:border-lime-400 hover:text-lime-400 transition-all duration-300">PANTS</button>
+                    <button id="Jackets"
+                        class="category-btn px-3 sm:px-5 py-2.5 text-xs font-bold tracking-[0.15em] border border-zinc-400 text-zinc-400 hover:border-lime-400 hover:text-lime-400 transition-all duration-300">JACKETS</button>
+                    <button id="Shoes"
+                        class="category-btn px-3 sm:px-5 py-2.5 text-xs font-bold tracking-[0.15em] border border-zinc-400 text-zinc-400 hover:border-lime-400 hover:text-lime-400 transition-all duration-300">Shoes</button>
+                </div>
+            </div>
+
+            <!--product-->
+            <div id="products" class="grid grid-cols-2 gap-3 p-4 sm:gap-6 sm:p-10 md:grid-cols-3 lg:grid-cols-4">
+            </div>
+
+
+            <!--pagination-->
+
+            <div id="pagination" class="fixed bottom-5 left-1/2 -translate-x-1/2
+                        flex items-center justify-center gap-1
+                        sm:gap-2
+                        bg-zinc-900/60 backdrop-blur-xl
+                        border border-white/10 rounded-xl sm:rounded-2xl
+                        p-1.5 sm:p-2
+                        z-50 max-w-[90vw] overflow-x-auto">
+            </div>
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <!-- Overlay -->
+        <div id="cartOverlay"
+            class="fixed inset-0 z-40 bg-black/60 opacity-0 invisible transition-opacity duration-300">
+        </div>
+
+        <!-- Cart -->
+        <aside id="cartDrawer"
+            class="fixed top-0 right-0 z-50 h-full w-full max-w-md translate-x-full bg-zinc-950 text-white border-l border-zinc-800 transition-transform duration-300">
+
+            <!-- Cart Header -->
+            <div class="flex items-center justify-between border-b border-zinc-800 px-6 py-5">
+                <div>
+                    <p class="text-[10px] uppercase tracking-[0.3em] text-lime-400">
+                        Your Selection
+                    </p>
+
+                    <h2 class="mt-1 text-xl font-medium tracking-wide">
+                        Shopping Bag
+                    </h2>
+                </div>
+
+                <button id="closeCartBtn"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-zinc-800 text-zinc-400 transition hover:border-white hover:text-white">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Cart Products -->
+            <div id="cartItems"
+                class="h-[calc(100%-170px)] overflow-y-auto px-6 py-5 scrollbar scrollbar-thumb-zinc-800 scrollbar-track-black">
+
+                <!-- Products will appear here -->
+
+            </div>
+
+            <!-- Cart Footer -->
+            <div class="absolute bottom-0 left-0 right-0 border-t border-zinc-800 bg-zinc-950 px-6 py-5">
+
+                <div class="mb-4 flex items-center justify-between">
+                    <span class="text-xs uppercase tracking-[0.2em] text-zinc-500">
+                        Total
+                    </span>
+
+                    <span id="cartTotal" class="text-lg font-semibold text-white">
+                        0 EGP
+                    </span>
+                </div>
+
+                <button
+                    class="w-full border border-lime-400 bg-lime-400 py-3 text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-transparent hover:text-lime-400">
+                    Checkout
+                </button>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!-- Overlay -->
+        <div id="cartOverlay"
+            class="fixed inset-0 z-40 bg-black/60 opacity-0 invisible transition-opacity duration-300">
+        </div>
+
+        <!-- Cart -->
+        <aside id="cartDrawer"
+            class="fixed top-0 right-0 z-50 h-full w-full max-w-md translate-x-full bg-zinc-950 text-white border-l border-zinc-800 transition-transform duration-300">
+
+            <!-- Cart Header -->
+            <div class="flex items-center justify-between border-b border-zinc-800 px-6 py-5">
+                <div>
+                    <p class="text-[10px] uppercase tracking-[0.3em] text-lime-400">
+                        Your Selection
+                    </p>
+
+                    <h2 class="mt-1 text-xl font-medium tracking-wide">
+                        Shopping Bag
+                    </h2>
+                </div>
+
+                <button id="closeCartBtn"
+                    class="flex h-10 w-10 items-center justify-center rounded-full border border-zinc-800 text-zinc-400 transition hover:border-white hover:text-white">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Cart Products -->
+            <div id="cartItems"
+                class="h-[calc(100%-170px)] overflow-y-auto px-6 py-5 scrollbar scrollbar-thumb-zinc-800 scrollbar-track-black">
+
+                <!-- Products will appear here -->
+
+            </div>
+
+            <!-- Cart Footer -->
+            <div class="absolute bottom-0 left-0 right-0 border-t border-zinc-800 bg-zinc-950 px-6 py-5">
+
+                <div class="mb-4 flex items-center justify-between">
+                    <span class="text-xs uppercase tracking-[0.2em] text-zinc-500">
+                        Total
+                    </span>
+
+                    <span id="cartTotal" class="text-lg font-semibold text-white">
+                        0 EGP
+                    </span>
+                </div>
+
+                <button
+                    class="w-full border border-lime-400 bg-lime-400 py-3 text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-transparent hover:text-lime-400">
+                    Checkout
+                </button>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <div id="wishlistOverlay" class="fixed inset-0 bg-black/50 hidden z-40"></div>
+
+        <aside id="wishlistDrawer"
+            class="fixed top-0 right-0 h-full w-80 bg-zinc-950 text-white z-50 translate-x-full   transition-transform duration-300">
+            <!-- Header -->
+            <div class="flex items-center justify-between p-5 border-b border-zinc-800">
+                <h2 class="text-xl font-bold">Wishlist</h2>
+
+                <button id="closeWishlist">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Wishlist Products -->
+            <div id="wishlistContainer" class="p-5 overflow-y-auto">
+            </div>
+        </aside>
+
+
+        <script src="js/browser@4.js"></script>
+
+        <script src="js/data.js"></script>
+        <script src="js/gallary.js"></script>
+      
+</body>
+
+</html>

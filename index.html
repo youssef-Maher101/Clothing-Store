@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body class>
+
+
+    <header class="bg-black   w-full fixed  top-0 left-0 right-0 z-50 text-sky-50">
+
+        <div class="container mx-auto lg:w-[95%] flex justify-between items-center p-4 sm:p-5 ">
+
+            <div class="logo shrink-0 flex gap-3 sm:gap-4 items-center">
+
+                <button class="md:hidden text-lg sm:text-xl z-60" id="toggle">
+                    <i class="fa-solid fa-bars" id="toggleIcon"></i>
+                </button>
+
+                <h2 class="font-['Rubik_Distressed',cursive] text-xl sm:text-2xl lg:text-3xl">
+                    URBAXN
+                </h2>
+
+            </div>
+
+
+            <nav id="nav-links" class="hidden absolute top-0 left-0 right-0  h-screen
+                   bg-black px-5 py-12 sm:py-14 z-40
+                   md:static md:flex md:justify-center md:items-center
+                   md:right-0 md:top-0 md:left-0 md:h-auto md:bg-transparent md:p-0 md:z-auto">
+
+                <ul class="flex flex-col items-center gap-6
+                           md:flex-row md:items-center
+                           md:gap-3 lg:gap-6
+                           font-semibold text-sm lg:text-base whitespace-nowrap">
+
+                    <li class="hover:text-lime-400 duration-700">
+                        <a href="#home">HOME</a>
+                    </li>
+
+                    <li class="hover:text-lime-400 duration-700">
+                        <a href="#shop" class="flex items-center gap-1 md:gap-2">
+                            SHOP
+                            <i class="fa-solid fa-chevron-down text-[8px] md:text-[10px]"></i>
+                        </a>
+                    </li>
+
+                    <li class="hover:text-lime-400 duration-700">
+                        <a href="#new">NEW ARRIVALS</a>
+                    </li>
+
+                    <li class="hover:text-lime-400 duration-700">
+                        <a href="#collection">COLLECTIONS</a>
+                    </li>
+
+                    <li class="hover:text-lime-400 duration-700">
+                        <a href="#sale">SALE</a>
+                    </li>
+
+                    <li class="hover:text-lime-400 duration-700">
+                        <a href="#about">ABOUT US</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <div class="icon flex items-center gap-3 sm:gap-4 md:gap-3 lg:gap-6 text-sm sm:text-base lg:text-lg">
+
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button>
+                    <i class="fa-regular fa-user"></i>
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </button>
+
+                <button id="darkmode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <!--HOME-->
+    <section
+        class="hero w-full min-h-screen bg-[url('./img/Image9zv8yb9zv8yb9zv8.jpg')] bg-cover bg-center bg-no-repeat flex items-center "
+        id="home">
+
+        <div
+            class="content-hero container mx-auto lg:w-[95%] flex flex-col   p-5 justify-center items-center md:items-baseline ">
+
+            <span
+                class="text-lime-400 text-base font-semibold  tracking-wider   md:tracking-widest md:font-bold lg:font-bold lg:tracking-widest">
+                NEW COLLECTION
+            </span>
+
+
+            <h2
+                class="text-gray-100 text-4xl  sm:text-5xl  md:text-5xl lg:text-6xl font-bold  mt-5 lg:leading-tight text-center md:text-start">
+
+                BUILT DIFFERENT <br>
+                MADE TO
+                <span class="text-lime-400">
+                    STAND OUT
+                </span>
+
+            </h2>
+
+
+            <p
+                class="text-gray-50 text-base  leading-normal md:text-lg mt-5  md:text-start    font-bold  text-center   lg:text-lg ">
+
+                Premium strrtwear for those <br>
+                Who set thier own rules .
+
+            </p>
+
+
+            <div class="buttons flex flex-col  sm:flex-row gap-4   mt-5  sm:gap-6">
+
+
+                <a href="#shop">
+                    <button
+                        class="w-full sm:w-40 lg:w-45 text-base py-2 px-6  whitespace-nowrap bg-lime-400 text-gray-950 font-medium rounded-md cursor-pointer hover:bg-transparent hover:duration-700 hover:text-gray-50 border-2 border-transparent hover:border-amber-50 hover:rounded-lg">
+
+                        SHOP NOW
+
+                    </button></a>
+
+
+                <button
+                    class="w-full  sm:w-auto  lg:w-70 text-base py-2 px-6 bg-transparent tracking-wider whitespace-nowrap text-gray-100 cursor-pointer font-medium rounded-md border-2 border-gray-50 border-solid hover:bg-lime-400 duration-500 hover:border-transparent hover:text-black">
+
+                    EXPLORE COLLECTION
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class=" services w-full bg-gray-300 py-6 px-1 border-t-1.5  border-b-1.5   border-gray-400 ">
+        <div class="container mx-auto lg:w-[95%] grid grid-cols-2 md:grid-cols-4">
+
+            <!-- 1 -->
+            <div class="border-r-2 border-b-2 md:border-b-0 border-gray-400">
+                <div
+                    class="flex flex-col items-center justify-center gap-2 text-black px-1 md:px-4 py-6 md:py-0 text-center">
+                    <i class="fa-solid fa-truck-arrow-right text-4xl shrink-0"></i>
+                    <div class="flex flex-col">
+                        <h3 class="tracking-normal md:tracking-wider text-base whitespace-nowrap">FREE SHIPPING</h3>
+                        <p class="text-base whitespace-nowrap">On orders over $100</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="border-r-0 md:border-r-2 border-b-2 md:border-b-0 border-gray-400">
+                <div
+                    class="flex flex-col items-center justify-center gap-2 text-black px-1 md:px-4 py-6 md:py-0 text-center">
+                    <i class="fa-solid fa-rotate-left text-4xl shrink-0"></i>
+                    <div class="flex flex-col">
+                        <h3 class="tracking-normal md:tracking-wider text-base whitespace-nowrap">EASY RETURNS</h3>
+                        <p class="text-base whitespace-nowrap">30-day return policy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="border-r-2 border-gray-400">
+                <div
+                    class="flex flex-col items-center justify-center gap-2 text-black px-1 md:px-4 py-6 md:py-0 text-center">
+                    <i class="fa-solid fa-shield-halved text-4xl shrink-0"></i>
+                    <div class="flex flex-col">
+                        <h3 class="tracking-normal md:tracking-wider text-base whitespace-nowrap">SECURE PAYMENT</h3>
+                        <p class="text-base whitespace-nowrap">100% protected</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div>
+                <div
+                    class="flex flex-col items-center justify-center gap-2 text-black px-1 md:px-4 py-6 md:py-0 text-center">
+                    <i class="fa-solid fa-headset text-4xl shrink-0"></i>
+                    <div class="flex flex-col">
+                        <h3 class="tracking-normal md:tracking-wider text-base whitespace-nowrap">24/7 SUPPORT</h3>
+                        <p class="text-base whitespace-nowrap">We're here to help</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--cards category-->
+    <section class="shop bg-gray-50 text-white py-8" id="shop">
+
+        <h2 class="font-bold text-2xl tracking-wider text-center text-black">
+            SHOP BY CATEGORY
+        </h2>
+
+        <div class="container mx-auto lg:w-[95%] flex flex-wrap justify-center gap-5 md:gap-6 mt-5 px-4">
+
+
+
+            <!--card 1-->
+            <div
+                class="relative flex justify-center w-[calc(50%-10px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-20px)] group overflow-hidden">
+                <img class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+                    src="./img/imageHoddies.png" alt="Hoodies Collection">
+
+                <a href="#"
+                    class="absolute bottom-6 md:bottom-8 lg:bottom-6 flex flex-col items-center gap-1.5 md:gap-2 lg:gap-1.5 text-center font-semibold text-white opacity-70 transition-opacity duration-300 ease-in hover:opacity-100 focus:outline-none focus:opacity-100">
+                    <i class="fa-solid fa-globe text-base md:text-xl lg:text-lg" aria-hidden="true"></i>
+                    <h3 class="text-base md:text-xl lg:text-lg whitespace-nowrap uppercase tracking-wide">HOODIES</h3>
+                    <span class="text-xs md:text-sm lg:text-xs font-normal whitespace-nowrap">SHOP NOW</span>
+                    <span class="w-full h-0.5 bg-lime-400"></span>
+                </a>
+            </div>
+
+            <!--card 2-->
+            <div
+                class="relative flex justify-center w-[calc(50%-10px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-20px)] group overflow-hidden">
+                <img class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+                    src="./img/imageHoddies.png" alt="Hoodies Collection">
+
+                <a href="#"
+                    class="absolute bottom-6 md:bottom-8 lg:bottom-6 flex flex-col items-center gap-1.5 md:gap-2 lg:gap-1.5 text-center font-semibold text-white opacity-70 transition-opacity duration-300 ease-in hover:opacity-100 focus:outline-none focus:opacity-100">
+                    <i class="fa-solid fa-globe text-base md:text-xl lg:text-lg" aria-hidden="true"></i>
+                    <h3 class="text-base md:text-xl lg:text-lg whitespace-nowrap uppercase tracking-wide">HOODIES</h3>
+                    <span class="text-xs md:text-sm lg:text-xs font-normal whitespace-nowrap">SHOP NOW</span>
+                    <span class="w-full h-0.5 bg-lime-400"></span>
+                </a>
+            </div>
+
+            <!--card 3-->
+            <div
+                class="relative flex justify-center w-[calc(50%-10px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-20px)] group overflow-hidden">
+                <img class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+                    src="./img/imageHoddies.png" alt="Hoodies Collection">
+
+                <a href="#"
+                    class="absolute bottom-6 md:bottom-8 lg:bottom-6 flex flex-col items-center gap-1.5 md:gap-2 lg:gap-1.5 text-center font-semibold text-white opacity-70 transition-opacity duration-300 ease-in hover:opacity-100 focus:outline-none focus:opacity-100">
+                    <i class="fa-solid fa-globe text-base md:text-xl lg:text-lg" aria-hidden="true"></i>
+                    <h3 class="text-base md:text-xl lg:text-lg whitespace-nowrap uppercase tracking-wide">HOODIES</h3>
+                    <span class="text-xs md:text-sm lg:text-xs font-normal whitespace-nowrap">SHOP NOW</span>
+                    <span class="w-full h-0.5 bg-lime-400"></span>
+                </a>
+            </div>
+
+            <!--card 4-->
+            <div
+                class="relative flex justify-center w-[calc(50%-10px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-20px)] group overflow-hidden">
+                <img class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+                    src="./img/imageHoddies.png" alt="Hoodies Collection">
+
+                <a href="#"
+                    class="absolute bottom-6 md:bottom-8 lg:bottom-6 flex flex-col items-center gap-1.5 md:gap-2 lg:gap-1.5 text-center font-semibold text-white opacity-70 transition-opacity duration-300 ease-in hover:opacity-100 focus:outline-none focus:opacity-100">
+                    <i class="fa-solid fa-globe text-base md:text-xl lg:text-lg" aria-hidden="true"></i>
+                    <h3 class="text-base md:text-xl lg:text-lg whitespace-nowrap uppercase tracking-wide">HOODIES</h3>
+                    <span class="text-xs md:text-sm lg:text-xs font-normal whitespace-nowrap">SHOP NOW</span>
+                    <span class="w-full h-0.5 bg-lime-400"></span>
+                </a>
+            </div>
+
+            <!--card 5-->
+            <div
+                class="relative flex justify-center w-[calc(50%-10px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-20px)] group overflow-hidden">
+                <img class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+                    src="./img/imageHoddies.png" alt="Hoodies Collection">
+
+                <a href="#"
+                    class="absolute bottom-6 md:bottom-8 lg:bottom-6 flex flex-col items-center gap-1.5 md:gap-2 lg:gap-1.5 text-center font-semibold text-white opacity-70 transition-opacity duration-300 ease-in hover:opacity-100 focus:outline-none focus:opacity-100">
+                    <i class="fa-solid fa-globe text-base md:text-xl lg:text-lg" aria-hidden="true"></i>
+                    <h3 class="text-base md:text-xl lg:text-lg whitespace-nowrap uppercase tracking-wide">HOODIES</h3>
+                    <span class="text-xs md:text-sm lg:text-xs font-normal whitespace-nowrap">SHOP NOW</span>
+                    <span class="w-full h-0.5 bg-lime-400"></span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--NEW ARRIVALS-->
+    <section class="bg-gray-100 text-black py-10 md:py-12 lg:py-16" id="new">
+
+        <div class="container mx-auto lg:w-[95%] px-4 md:px-6">
+
+            <!-- Header -->
+            <div class="w-full flex justify-between items-center">
+
+                <!-- Left -->
+                <h2 class="text-xl md:text-2xl tracking-tight font-bold">
+                    NEW ARRIVALS
+                </h2>
+
+                <!-- Right -->
+                <div class="flex items-center gap-2 cursor-pointer">
+
+
+                    <a href="gallary.html" class="inline-flex items-center gap-1.5
+                 px-4 py-2
+                 text-sm
+                 bg-black text-white
+                 font-bold
+                 border-2 border-transparent
+                 rounded-lg
+                 transition-all duration-300
+                 hover:bg-black
+                 hover:text-lime-400
+                 hover:border-lime-400
+                 sm:gap-2
+                 sm:px-6 sm:py-3
+                 sm:text-base">
+
+                        VIEW ALL
+                        <i class="fa-solid fa-arrow-right text-xs sm:text-sm"></i>
+
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Cards -->
+            <div
+                class="cards mt-5 md:mt-6  flex flex-wrap justify-center  gap-x-2 sm:gap-x-4 md:gap-x-5  gap-y-8 md:gap-y-10">
+
+
+                <!-- Card 1 -->
+                <div class="w-[47%]  md:w-[30%] lg:w-[25%] relative ">
+
+
+                    <img src="./img/imageHoddies.png" alt="CHAOS TIE_BLACK hoodie" class="w-full h-auto">
+
+                    <div class="icon absolute top-2 right-2.5"> <i class="fa-regular fa-heart text-xl"></i></div>
+                    <div class="content-card">
+
+                        <h3 class="mt-2 text-sm sm:text-base md:text-lg
+                               font-semibold tracking-tight">
+                            CHAOS TIE_BLACK
+                        </h3>
+
+                        <span class="text-xs sm:text-sm md:text-base">
+                            $ 49.00
+                        </span>
+
+                        <div class="colors flex gap-2 mt-2">
+
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+
+                            <div class="w-4 h-4 bg-gray-400 rounded-full"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 1 -->
+                <div class="w-[47%]  md:w-[30%] lg:w-[25%] relative">
+
+
+                    <img src="./img/imageHoddies.png" alt="CHAOS TIE_BLACK hoodie" class="w-full h-auto">
+
+                    <div class="icon absolute top-2 right-2.5"> <i class="fa-regular fa-heart text-xl"></i></div>
+                    <div class="content-card">
+
+                        <h3 class="mt-2 text-sm sm:text-base md:text-lg
+                                               font-semibold tracking-tight">
+                            CHAOS TIE_BLACK
+                        </h3>
+
+                        <span class="text-xs sm:text-sm md:text-base">
+                            $ 49.00
+                        </span>
+
+                        <div class="colors flex gap-2 mt-2">
+
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+
+                            <div class="w-4 h-4 bg-gray-400 rounded-full"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Card 1 -->
+                <div class="w-[47%]  md:w-[30%] lg:w-[25%] relative">
+
+
+                    <img src="./img/imageHoddies.png" alt="CHAOS TIE_BLACK hoodie" class="w-full h-auto">
+
+                    <div class="icon absolute top-2 right-2.5"> <i class="fa-regular fa-heart text-xl"></i></div>
+                    <div class="content-card">
+
+                        <h3 class="mt-2 text-sm sm:text-base md:text-lg
+                                               font-semibold tracking-tight">
+                            CHAOS TIE_BLACK
+                        </h3>
+
+                        <span class="text-xs sm:text-sm md:text-base">
+                            $ 49.00
+                        </span>
+
+                        <div class="colors flex gap-2 mt-2">
+
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+
+                            <div class="w-4 h-4 bg-gray-400 rounded-full"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Card 1 -->
+                <div class="w-[47%]  md:w-[30%] lg:w-[25%] relative">
+
+
+                    <img src="./img/imageHoddies.png" alt="CHAOS TIE_BLACK hoodie" class="w-full h-auto">
+
+                    <div class="icon absolute top-2 right-2.5"> <i class="fa-regular fa-heart text-xl"></i></div>
+                    <div class="content-card">
+
+                        <h3 class="mt-2 text-sm sm:text-base md:text-lg
+                                               font-semibold tracking-tight">
+                            CHAOS TIE_BLACK
+                        </h3>
+
+                        <span class="text-xs sm:text-sm md:text-base">
+                            $ 49.00
+                        </span>
+
+                        <div class="colors flex gap-2 mt-2">
+
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+
+                            <div class="w-4 h-4 bg-gray-400 rounded-full"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 1 -->
+                <div class="w-[47%]  md:w-[30%] lg:w-[25%] relative">
+
+
+                    <img src="./img/imageHoddies.png" alt="CHAOS TIE_BLACK hoodie" class="w-full h-auto">
+
+                    <div class="icon absolute top-2 right-2.5"> <i class="fa-regular fa-heart text-xl"></i></div>
+                    <div class="content-card">
+
+                        <h3 class="mt-2 text-sm sm:text-base md:text-lg
+                                               font-semibold tracking-tight">
+                            CHAOS TIE_BLACK
+                        </h3>
+
+                        <span class="text-xs sm:text-sm md:text-base">
+                            $ 49.00
+                        </span>
+
+                        <div class="colors flex gap-2 mt-2">
+
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+
+                            <div class="w-4 h-4 bg-gray-400 rounded-full"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 1 -->
+                <div class="w-[47%]  md:w-[30%] lg:w-[25%] relative">
+
+
+                    <img src="./img/imageHoddies.png" alt="CHAOS TIE_BLACK hoodie" class="w-full h-auto">
+
+                    <div class="icon absolute top-2 right-2.5"> <i class="fa-regular fa-heart text-xl"></i></div>
+                    <div class="content-card">
+
+                        <h3 class="mt-2 text-sm sm:text-base md:text-lg
+                                               font-semibold tracking-tight">
+                            CHAOS TIE_BLACK
+                        </h3>
+
+                        <span class="text-xs sm:text-sm md:text-base">
+                            $ 49.00
+                        </span>
+
+                        <div class="colors flex gap-2 mt-2">
+
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+
+                            <div class="w-4 h-4 bg-gray-400 rounded-full"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--cards special-->
+    <section class="bg-gray-200 px-4 py-10 md:p-10">
+        <div class="flex flex-col lg:flex-row gap-6 max-w-7xl mx-auto">
+
+            <div class="relative lg:flex-1 overflow-hidden group">
+                <img src="./img/photo_2026-10-02_01-40-27.jpg" alt="Athlete training outdoors" loading="lazy"
+                    class="w-full min-h-[320px] object-cover transition-transform duration-700 group-hover:scale-105">
+
+                <div class="absolute left-6 md:left-10 top-1/2 -translate-y-1/2 flex flex-col gap-3 text-white">
+                    <p class="text-xs md:text-sm tracking-[0.3em] uppercase">Join the Movement</p>
+                    <h2 class="text-2xl lg:text-4xl font-black uppercase leading-tight">Be part of <br> something real .
+                    </h2>
+                    <a href="#shop"
+                        class="w-fit bg-lime-400 text-black border-2 border-lime-400 px-3 py-1 text-sm md:px-6 md:py-3 md:text-base font-bold uppercase rounded-sm hover:bg-transparent hover:text-lime-400 transition duration-500">
+                        Shop Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative lg:flex-1 overflow-hidden group">
+                <img src="./img/photo_2026-10-02_03-22-10.jpg" alt="Athlete training outdoors"
+                    class="w-full min-h-[320px] object-cover transition-transform duration-700 group-hover:scale-105">
+
+                <div class="absolute left-6 md:left-10 top-1/2 -translate-y-1/2 flex flex-col gap-3 text-black">
+                    <p class="text-xs md:text-sm tracking-[0.3em] uppercase">LIMITED DROP</p>
+                    <h2 class="text-2xl lg:text-4xl font-black uppercase leading-tight">EXCLUSIVE STYLES . <br> LIMITED
+                        QUANTITES .
+                    </h2>
+                    <a href="#shop"
+                        class="w-fit bg-transparent text-black border-2 border-black px-3 py-1 text-sm md:px-6 md:py-3 md:text-base font-bold uppercase rounded-sm transition-all ease-in duration-500 hover:bg-lime-400 hover:text-black hover:border-transparent">
+                        EXPLORE NOW
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer
+        class="text-white border-t border-zinc-800 bg-[url('./img/photo_2026-10-02_04-22-03.jpg')] bg-cover bg-center bg-no-repeat">
+
+        <!-- CONTACT -->
+        <div class="border-b border-zinc-800">
+
+            <div class="container  mx-auto lg:w-[95%] px-6 py-8
+            flex flex-col lg:flex-row items-center justify-center gap-8">
+
+                <!-- Left -->
+                <div class="flex items-center gap-5">
+
+                    <div class="text-3xl shrink-0">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <h3 class="text-base font-bold uppercase tracking-wider">
+                            STAY IN THE LOOP
+                        </h3>
+
+                        <p class="text-sm text-zinc-400 mt-1">
+                            Get exclusive updates, offers, and more.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Right -->
+                <div class="flex w-full lg:w-auto gap-3">
+
+                    <input type="email" placeholder="Enter your email address" class="w-full lg:w-80 h-11
+                    bg-transparent border border-zinc-600
+                    px-4 text-sm outline-none
+                    placeholder:text-zinc-500
+                    focus:border-lime-400 transition">
+
+                    <button class="h-11 px-7
+                    bg-lime-400 text-black text-base
+                     uppercase
+                    font-semibold
+                    hover:bg-lime-300 transition">
+                        Subscribe
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="container lg:w-[95%] mx-auto px-5 sm:px-6 py-10 sm:py-12">
+
+            <!-- -->
+            <div class="flex flex-wrap gap-y-10 sm:gap-y-12 md:flex-nowrap md:gap-16">
+
+                <!-- Logo -->
+                <div class="w-full md:w-1/5 flex flex-col">
+
+                    <h2 class="text-3xl sm:text-4xl font-black italic tracking-tighter">
+                        URBAXN
+                    </h2>
+
+                    <p class="mt-3 text-sm sm:text-base text-zinc-400 leading-relaxed max-w-[250px]">
+                        Streetwear made for the bold.
+                        Designed to break the norm.
+                        Born worldwide.
+                    </p>
+
+                    <!-- Social -->
+                    <div class="flex items-center gap-5 mt-6 text-zinc-400 text-lg">
+
+                        <a href="#" class="hover:text-lime-400 transition">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="hover:text-lime-400 transition">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="hover:text-lime-400 transition">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="hover:text-lime-400 transition">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Shop -->
+                <div class="w-1/2 sm:w-1/3 md:w-1/5">
+
+                    <h3 class="text-sm sm:text-base font-bold uppercase tracking-wide mb-5">
+                        Shop
+                    </h3>
+
+                    <ul class="space-y-3 text-sm sm:text-[15px] text-zinc-400">
+
+                        <li><a href="#" class="hover:text-lime-400 transition">All Products</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Hoodies</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">T-Shirts</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Pants</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Jackets</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Accessories</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Sale</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Customer Care -->
+                <div class="w-1/2 sm:w-1/3 md:w-1/5">
+
+                    <h3 class="text-sm sm:text-base font-bold uppercase tracking-wide mb-5">
+                        Customer Care
+                    </h3>
+
+                    <ul class="space-y-3 text-sm sm:text-[15px] text-zinc-400">
+
+                        <li><a href="#" class="hover:text-lime-400 transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Shipping & Delivery</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Returns & Exchanges</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Size Guide</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Track Order</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">FAQ</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Company -->
+                <div class="w-1/2 sm:w-1/3 md:w-1/5">
+
+                    <h3 class="text-sm sm:text-base font-bold uppercase tracking-wide mb-5">
+                        Company
+                    </h3>
+
+                    <ul class="space-y-3 text-sm sm:text-[15px] text-zinc-400">
+
+                        <li><a href="#" class="hover:text-lime-400 transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Our Story</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Sustainability</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition">Wholesale</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bottom -->
+            <div class="mt-10 sm:mt-12 pt-6 border-t border-zinc-800
+                flex flex-col md:flex-row
+                items-center justify-between
+                gap-6">
+
+                <!-- Copyright -->
+                <p class="text-[11px] sm:text-xs text-zinc-500
+                  tracking-wide leading-relaxed
+                  text-center md:text-left">
+
+
+                    <span class="whitespace-nowrap">
+                        © 2026 URBAXN. All rights reserved.
+                    </span>
+
+                    <span class="hidden lg:inline-block mx-2.5 text-zinc-700 font-bold">
+                        |
+                    </span>
+
+                    <span class="block lg:inline-block mt-1 lg:mt-0 font-semibold text-zinc-400">
+                        Crafted & Developed by
+                    </span>
+
+
+                    <span class="block lg:inline-block
+                         mt-1 lg:mt-0
+                         ml-0 lg:ml-1.5
+                         text-lime-400
+                         font-black
+                         tracking-[0.14em] lg:tracking-[0.2em]
+                         whitespace-nowrap">
+                        YOUSSEF × CLEVER
+                    </span>
+
+                </p>
+
+
+                <!-- Payment -->
+                <div class="flex flex-col sm:flex-row
+                    items-center justify-center
+                    gap-4 sm:gap-5">
+
+                    <span class="text-xs text-zinc-400 hidden lg:flex md:flex">
+                        <i class="fa-solid fa-globe mr-1"></i>
+                        EN / USD
+                    </span>
+
+                    <div class="flex items-center gap-2 text-[9px] sm:text-[10px]">
+
+                        <span class="bg-white text-black px-2.5 sm:px-3 py-1.5 rounded-sm font-bold">
+                            VISA
+                        </span>
+
+                        <span class="bg-zinc-200 text-black px-2.5 sm:px-3 py-1.5 rounded-sm font-bold">
+                            MC
+                        </span>
+
+                        <span class="bg-blue-500 text-white px-2.5 sm:px-3 py-1.5 rounded-sm font-bold">
+                            PayPal
+                        </span>
+
+                        <span class="bg-white text-black px-2.5 sm:px-3 py-1 rounded-sm font-bold">
+                            <i class="fa-brands fa-apple-pay text-lg"></i>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/browser@4.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
