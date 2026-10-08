@@ -412,6 +412,17 @@ closeWishlist.addEventListener("click", () => {
   wishlistOverlay.classList.add("opacity-0", "invisible");
 });
 
+function removeFromCart(id) {
+  
+  const product = productCart.find((p) => p.id === id);
+  if (product) {
+    productCart = productCart.filter((p) => p.id !== id);
+    cartCount.innerHTML = Number(cartCount.innerHTML) - 1;
+    disaplayProductCart();
+    calculateTotal();
+  }
+}
+
 function removeFromWishlist(id) {
   const product = productWishlist.find((p) => {
     return p.id === id;
@@ -478,7 +489,6 @@ function changePage(page) {
 }
 
 displayProductsPaginated();
-
 
 /*********************************** */
 const category = window.location.hash.substring(1);
