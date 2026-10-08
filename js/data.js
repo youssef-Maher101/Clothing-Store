@@ -510,7 +510,7 @@ const clothes = [
     color: "Navy",
     inStock: true,
     rating: 5.0,
-    image: "https://placehold.co/400x500/1f2a44/fff?text=Navy+Bomber+Jacket",
+    image: "./img/913752b37a54cef550c43776028ced20.jpg",
   },
   {
     id: 47,
@@ -521,8 +521,7 @@ const clothes = [
     color: "Olive Green",
     inStock: true,
     rating: 4.8,
-    image:
-      "https://placehold.co/400x500/556b2f/fff?text=Olive+Green+Bomber+Jacket",
+    image: "./img/c75e3b89521cf0a8c0f16be558f0ee2e.jpg",
   },
   {
     id: 48,
@@ -533,7 +532,7 @@ const clothes = [
     color: "Blue",
     inStock: true,
     rating: 4.6,
-    image: "https://placehold.co/400x500/2a4d8f/fff?text=Blue+Bomber+Jacket",
+    image: "./img/1182b316a9910ad87a1b024418ee5d38.jpg",
   },
   {
     id: 49,
@@ -544,7 +543,7 @@ const clothes = [
     color: "Beige",
     inStock: false,
     rating: 4.4,
-    image: "https://placehold.co/400x500/d8c9a8/000?text=Beige+Denim+Jacket",
+    image: "./img/66b05c45c14783813201c1d0b2fa68ed.jpg",
   },
   {
     id: 50,
@@ -555,7 +554,7 @@ const clothes = [
     color: "Red",
     inStock: true,
     rating: 4.2,
-    image: "https://placehold.co/400x500/b22222/fff?text=Red+Denim+Jacket",
+    image: "./img/62e5d568491affd65b92d25d49c493cb.jpg",
   },
   {
     id: 51,
@@ -566,7 +565,7 @@ const clothes = [
     color: "Black",
     inStock: true,
     rating: 4.0,
-    image: "https://placehold.co/400x500/111/fff?text=Black+Denim+Jacket",
+    image: "./img/49b25fc8154d05141103f50ba9d45069.jpg",
   },
   {
     id: 52,
@@ -577,7 +576,7 @@ const clothes = [
     color: "White",
     inStock: true,
     rating: 3.8,
-    image: "https://placehold.co/400x500/eee/000?text=White+Varsity+Jacket",
+    image: "./img/39fed823ebec0bfaacac3201d776b6bc.jpg",
   },
   {
     id: 53,
@@ -588,7 +587,7 @@ const clothes = [
     color: "Gray",
     inStock: true,
     rating: 4.9,
-    image: "https://placehold.co/400x500/888/fff?text=Gray+Varsity+Jacket",
+    image: "./img/36a943bfcc8751691f2628946eab79e1.jpg",
   },
   {
     id: 54,
@@ -599,7 +598,7 @@ const clothes = [
     color: "Navy",
     inStock: true,
     rating: 4.7,
-    image: "https://placehold.co/400x500/1f2a44/fff?text=Navy+Varsity+Jacket",
+    image: "./img/22beecd3c1605f96dd7a0ed948ae6839.jpg",
   },
   {
     id: 55,
@@ -610,8 +609,7 @@ const clothes = [
     color: "Olive Green",
     inStock: true,
     rating: 4.5,
-    image:
-      "https://placehold.co/400x500/556b2f/fff?text=Olive+Green+Windbreaker",
+    image: "./img/04abc92de7f9a966672afc827e5acd0c.jpg",
   },
   {
     id: 56,
@@ -622,7 +620,7 @@ const clothes = [
     color: "Blue",
     inStock: false,
     rating: 4.3,
-    image: "https://placehold.co/400x500/2a4d8f/fff?text=Blue+Windbreaker",
+    image: "./img/2dbde09cf03a5caae80b3df7ed8d128d.jpg",
   },
   {
     id: 57,
@@ -633,7 +631,7 @@ const clothes = [
     color: "Beige",
     inStock: true,
     rating: 4.1,
-    image: "https://placehold.co/400x500/d8c9a8/000?text=Beige+Windbreaker",
+    image: "./img/191d33f24b7e510d0dd50825440ec578.jpg",
   },
   {
     id: 58,
@@ -644,7 +642,7 @@ const clothes = [
     color: "Red",
     inStock: true,
     rating: 3.9,
-    image: "https://placehold.co/400x500/b22222/fff?text=Red+Puffer+Jacket",
+    image: "./img/904c36f196c62c9e7387183cdcbbf817.jpg",
   },
   {
     id: 59,
@@ -655,7 +653,7 @@ const clothes = [
     color: "Black",
     inStock: true,
     rating: 5.0,
-    image: "https://placehold.co/400x500/111/fff?text=Black+Puffer+Jacket",
+    image: "./img/c75e3b89521cf0a8c0f16be558f0ee2e.jpg",
   },
   {
     id: 60,
@@ -666,7 +664,7 @@ const clothes = [
     color: "White",
     inStock: true,
     rating: 4.8,
-    image: "https://placehold.co/400x500/eee/000?text=White+Puffer+Jacket",
+    image: "./img/d6883189a580dd777a3e46bff341ad43.jpg",
   },
 
   /***************** Shorts *************************** */
@@ -679,8 +677,7 @@ const clothes = [
     color: "Olive Green",
     inStock: true,
     rating: 4.6,
-    image:
-      "https://placehold.co/400x500/556b2f/fff?text=Olive+Green+Sport+Shorts",
+    image: "./img/5d926f5fb92466e76610eed60c894d02.jpg",
   },
   {
     id: 62,
@@ -691,7 +688,7 @@ const clothes = [
     color: "Blue",
     inStock: true,
     rating: 4.4,
-    image: "https://placehold.co/400x500/2a4d8f/fff?text=Blue+Sport+Shorts",
+    image: "./img/795e5e9b512b37ee1b6d4782f79fd245.jpg",
   },
   {
     id: 63,
@@ -702,7 +699,7 @@ const clothes = [
     color: "Beige",
     inStock: false,
     rating: 4.2,
-    image: "https://placehold.co/400x500/d8c9a8/000?text=Beige+Sport+Shorts",
+    image: "./img/e28be07eceb0cb149731fb366db65e8b.jpg",
   },
   {
     id: 64,
@@ -713,7 +710,7 @@ const clothes = [
     color: "Red",
     inStock: true,
     rating: 4.0,
-    image: "https://placehold.co/400x500/b22222/fff?text=Red+Cargo+Shorts",
+    image: "./img/37527755bab602ae211c79db671bdaac.jpg",
   },
   {
     id: 65,
@@ -724,7 +721,7 @@ const clothes = [
     color: "Black",
     inStock: true,
     rating: 3.8,
-    image: "https://placehold.co/400x500/111/fff?text=Black+Cargo+Shorts",
+    image: "./img/5d41983940636c4772c2025e37627dbd.jpg",
   },
   {
     id: 66,
@@ -735,7 +732,7 @@ const clothes = [
     color: "White",
     inStock: true,
     rating: 4.9,
-    image: "https://placehold.co/400x500/eee/000?text=White+Cargo+Shorts",
+    image: "./img/e6becb666f0e9e55e89d141f08cf4795.jpg",
   },
   {
     id: 67,
@@ -746,7 +743,7 @@ const clothes = [
     color: "Gray",
     inStock: true,
     rating: 4.7,
-    image: "https://placehold.co/400x500/888/fff?text=Gray+Denim+Shorts",
+    image: "./img/1c8ed2c91d3406c553ca748e2664bdf3.jpg",
   },
   {
     id: 68,
@@ -757,7 +754,7 @@ const clothes = [
     color: "Navy",
     inStock: true,
     rating: 4.5,
-    image: "https://placehold.co/400x500/1f2a44/fff?text=Navy+Denim+Shorts",
+    image: "./img/37c0ac49c5e91ebb1236554d3d50edca.jpg",
   },
   {
     id: 69,
@@ -768,8 +765,7 @@ const clothes = [
     color: "Olive Green",
     inStock: true,
     rating: 4.3,
-    image:
-      "https://placehold.co/400x500/556b2f/fff?text=Olive+Green+Denim+Shorts",
+    image: "./img/72b4cd7dc2947fdf160c1f7ef53cc3f4.jpg",
   },
   {
     id: 70,
@@ -780,8 +776,7 @@ const clothes = [
     color: "Blue",
     inStock: false,
     rating: 4.1,
-    image:
-      "https://placehold.co/400x500/2a4d8f/fff?text=Blue+Basketball+Shorts",
+    image: "./img/f7cf4d778213df346ac10e56b7449134.jpg",
   },
   {
     id: 71,
@@ -792,8 +787,7 @@ const clothes = [
     color: "Beige",
     inStock: true,
     rating: 3.9,
-    image:
-      "https://placehold.co/400x500/d8c9a8/000?text=Beige+Basketball+Shorts",
+    image: "./img/a7dfc127eb10acb1eae08d6a127d7762.jpg",
   },
   {
     id: 72,
@@ -804,7 +798,7 @@ const clothes = [
     color: "Red",
     inStock: true,
     rating: 5.0,
-    image: "https://placehold.co/400x500/b22222/fff?text=Red+Basketball+Shorts",
+    image: "./img/d7e1426aa7276e1a0ea8c087cc3d6ce5.jpg",
   },
   {
     id: 73,
@@ -815,7 +809,7 @@ const clothes = [
     color: "Black",
     inStock: true,
     rating: 4.8,
-    image: "https://placehold.co/400x500/111/fff?text=Black+Swim+Shorts",
+    image: "./img/82157fc09c6b2e62163657b7b152ff1f.jpg",
   },
   {
     id: 74,
@@ -826,7 +820,7 @@ const clothes = [
     color: "White",
     inStock: true,
     rating: 4.6,
-    image: "https://placehold.co/400x500/eee/000?text=White+Swim+Shorts",
+    image: "./img/fb00a2ce1ef3cf8469c85cef5e014042.jpg",
   },
   {
     id: 75,
@@ -837,7 +831,7 @@ const clothes = [
     color: "Gray",
     inStock: true,
     rating: 4.4,
-    image: "https://placehold.co/400x500/888/fff?text=Gray+Swim+Shorts",
+    image: "./img/a9178461101aba024ca2e802b1d01216.jpg",
   },
 
   /***************** Shoes *************************** */
@@ -850,7 +844,7 @@ const clothes = [
     color: "Blue",
     inStock: true,
     rating: 4.2,
-    image: "https://placehold.co/400x500/2a4d8f/fff?text=Blue+Casual+Sneakers",
+    image: "./img/0ffc8400b01272f85d58465b2435ecee.jpg",
   },
   {
     id: 77,
@@ -861,7 +855,7 @@ const clothes = [
     color: "Beige",
     inStock: false,
     rating: 4.0,
-    image: "https://placehold.co/400x500/d8c9a8/000?text=Beige+Casual+Sneakers",
+    image: "./img/8503ba1c7f707353699269182d3654b0.jpg",
   },
   {
     id: 78,
@@ -872,7 +866,7 @@ const clothes = [
     color: "Red",
     inStock: true,
     rating: 3.8,
-    image: "https://placehold.co/400x500/b22222/fff?text=Red+Casual+Sneakers",
+    image: "./img/3d8fef0a78a9cdf2d1c4dafb16c84539.jpg",
   },
   {
     id: 79,
@@ -883,7 +877,7 @@ const clothes = [
     color: "Black",
     inStock: true,
     rating: 4.9,
-    image: "https://placehold.co/400x500/111/fff?text=Black+High-Top+Sneakers",
+    image: "./img/4180397d08ad600b62035a81180a1802.jpg",
   },
   {
     id: 80,
@@ -894,7 +888,7 @@ const clothes = [
     color: "White",
     inStock: true,
     rating: 4.7,
-    image: "https://placehold.co/400x500/eee/000?text=White+High-Top+Sneakers",
+    image: "./img/16796eaf581e5b0617337c762c4acf82.jpg",
   },
   {
     id: 81,
@@ -905,7 +899,7 @@ const clothes = [
     color: "Gray",
     inStock: true,
     rating: 4.5,
-    image: "https://placehold.co/400x500/888/fff?text=Gray+High-Top+Sneakers",
+    image: "./img/ea6846d6ca8b8ce5a457051a6d3932a1.jpg",
   },
   {
     id: 82,
@@ -916,7 +910,7 @@ const clothes = [
     color: "Navy",
     inStock: true,
     rating: 4.3,
-    image: "https://placehold.co/400x500/1f2a44/fff?text=Navy+Chunky+Sneakers",
+    image: "./img/9a85da9ef6da67b5886f6f506bbad51d.jpg",
   },
   {
     id: 83,
@@ -927,8 +921,7 @@ const clothes = [
     color: "Olive Green",
     inStock: true,
     rating: 4.1,
-    image:
-      "https://placehold.co/400x500/556b2f/fff?text=Olive+Green+Chunky+Sneakers",
+    image: "./img/353ea813752d42b460b8cc397132e359.jpg",
   },
   {
     id: 84,
@@ -939,7 +932,7 @@ const clothes = [
     color: "Blue",
     inStock: false,
     rating: 3.9,
-    image: "https://placehold.co/400x500/2a4d8f/fff?text=Blue+Chunky+Sneakers",
+    image: "./img/ee12d143e821fee8c148157ce58e538f.jpg",
   },
   {
     id: 85,
@@ -950,7 +943,7 @@ const clothes = [
     color: "Beige",
     inStock: true,
     rating: 5.0,
-    image: "https://placehold.co/400x500/d8c9a8/000?text=Beige+Slip-Ons",
+    image: "./img/f9903775897959e6e274e575327db2f8.jpg",
   },
   {
     id: 86,
@@ -961,7 +954,7 @@ const clothes = [
     color: "Red",
     inStock: true,
     rating: 4.8,
-    image: "https://placehold.co/400x500/b22222/fff?text=Red+Slip-Ons",
+    image: "./img/fc8e20b8c366c92b3d423c3c14b55fe3.jpg",
   },
   {
     id: 87,
@@ -972,7 +965,7 @@ const clothes = [
     color: "Black",
     inStock: true,
     rating: 4.6,
-    image: "https://placehold.co/400x500/111/fff?text=Black+Slip-Ons",
+    image: "./img/582a2d5f841c9f0196e8b56f8990d19b.jpg",
   },
   {
     id: 88,
@@ -983,7 +976,7 @@ const clothes = [
     color: "White",
     inStock: true,
     rating: 4.4,
-    image: "https://placehold.co/400x500/eee/000?text=White+Running+Shoes",
+    image: "./img/87708ab1b5980e3278430fb7efb03bb8.jpg",
   },
   {
     id: 89,
@@ -994,7 +987,7 @@ const clothes = [
     color: "Gray",
     inStock: true,
     rating: 4.2,
-    image: "https://placehold.co/400x500/888/fff?text=Gray+Running+Shoes",
+    image: "./img/ff050dac05809770610923bb103639e0.jpg",
   },
   {
     id: 90,
@@ -1005,7 +998,7 @@ const clothes = [
     color: "Navy",
     inStock: true,
     rating: 4.0,
-    image: "https://placehold.co/400x500/1f2a44/fff?text=Navy+Running+Shoes",
+    image: "./img/751df564ff6e8ee1d060dbdc00a46818.jpg",
   },
 ];
 
