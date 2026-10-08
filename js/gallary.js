@@ -141,8 +141,6 @@ function addToCart(id) {
   }
 }
 
-
-
 function showToast() {
   const toast = document.getElementById("toast");
 
@@ -169,14 +167,10 @@ openCartBtn.addEventListener("click", () => {
   cartOverlay.classList.remove("opacity-0", "invisible");
 });
 
-
 toast.addEventListener("click", () => {
   cartDrawer.classList.remove("translate-x-full");
   cartOverlay.classList.remove("opacity-0", "invisible");
 });
-
-
-
 
 closeCartBtn.addEventListener("click", () => {
   cartDrawer.classList.add("translate-x-full");
@@ -484,3 +478,15 @@ function changePage(page) {
 }
 
 displayProductsPaginated();
+
+
+/*********************************** */
+const category = window.location.hash.substring(1);
+
+if (category) {
+  const button = document.getElementById(category);
+
+  if (button) {
+    button.click();
+  }
+}
