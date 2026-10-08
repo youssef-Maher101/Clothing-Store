@@ -437,7 +437,7 @@ function removeFromWishlist(id) {
 
     count--;
 
-    productWishlist.innerHTML = count;
+    wishlistcount.innerHTML = count;
 
     displayWishlist();
   }
